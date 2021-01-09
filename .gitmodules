@@ -1,7 +1,12 @@
 # todo, create AccessControlMock, because does module does not depend on this implementation
 # Only on the interface
 
+# [submodule "AccessControl"]
+# 	path = AccessControl
+# 	url = https://github.com/Evert0x/AccessControl
+# 	branch = main
+
 [submodule "AccessControl"]
 	path = AccessControl
-	url = https://github.com/Evert0x/AccessControl
+	url = https://github.com/Evert0x/AccessControlMock
 	branch = main

@@ -1,6 +1,6 @@
 # Member access control
 
-An implementation of an member access module (TMP-2)
+An implementation of an member access module (TMP-2) and pool roles (TMP-3)
 
 With the following roles
 
@@ -19,4 +19,5 @@ This implementation assigns member ids (uint256) to members with a mapping to an
 
 - access-control (TMP-1)
 
+`git submodule sync --recursive`
 `git submodule update --remote AccessControl`
