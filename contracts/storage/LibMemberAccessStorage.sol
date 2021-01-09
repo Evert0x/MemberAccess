@@ -12,7 +12,7 @@ library LibMemberAccessStorage {
         mapping(uint256 => address) memberToAddress;
     }
 
-    function roleStorage() internal pure returns (MemberStorage storage rs) {
+    function memberStorage() internal pure returns (MemberStorage storage rs) {
         bytes32 position = MEMBER_ACCESS_STORAGE_POSITION;
         assembly {
             rs.slot := position
