@@ -1,7 +1,7 @@
 {
   "name": "hardhat-project",
   "scripts": {
-    "test": "./scripts/test.bash https://github.com/Evert0x/AccessControlMock TMP1"
+    "test": "./scripts/dep.bash https://github.com/Evert0x/AccessControlMock TMP1 && npx hardhat test"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.1",

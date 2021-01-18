@@ -10,5 +10,3 @@ else
 
     echo $1 $2 > .tmp
 fi
-
-npx hardhat test
