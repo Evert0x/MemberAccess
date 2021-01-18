@@ -18,6 +18,3 @@ This implementation assigns member ids (uint256) to members with a mapping to an
 ## Depends on
 
 - access-control (TMP-1)
-
-`git submodule sync --recursive`
-`git submodule update --remote AccessControl`

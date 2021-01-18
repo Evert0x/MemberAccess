@@ -3,7 +3,7 @@
 
 pragma solidity ^0.7.4;
 
-import "../AccessControl/contracts/AccessControl.sol";
+import "../TMP1/contracts/AccessControl.sol";
 import "diamond-2/contracts/libraries/LibDiamond.sol";
 import "./interfaces/IMemberID.sol";
 import "./interfaces/IPoolRoles.sol";
